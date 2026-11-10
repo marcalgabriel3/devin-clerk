@@ -4,22 +4,35 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "Blueprints 3D",
+  description: "Reúne a maior quantidade possível de projetos para impressão 3D",
+  emoji: "🧊",
+  accent: "#f97316",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Catálogo de projetos",
+      description:
+        "Navegue por uma grade de projetos com miniatura, autor e dados de impressão.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Busca e filtros",
+      description:
+        "Encontre projetos filtrando por categoria, impressora, material e dificuldade.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Envio de projetos",
+      description:
+        "Publique arquivos STL ou 3MF com fotos e configurações de impressão.",
+    },
+    {
+      title: "Coleções favoritas",
+      description:
+        "Salve projetos em coleções pessoais para imprimir depois.",
+    },
+    {
+      title: "Visualizador 3D",
+      description:
+        "Gire e amplie o modelo no navegador antes de baixar o arquivo.",
     },
   ] satisfies Feature[],
 };
