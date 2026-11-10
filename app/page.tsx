@@ -13,11 +13,11 @@ export default function Home() {
         href="/dashboard"
         className="rounded-full bg-accent px-6 py-3 font-medium text-white shadow-sm transition hover:opacity-90"
       >
-        Get early access →
+        Explorar projetos →
       </Link>
       <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
+        STL, 3MF e configurações de impressão em um só lugar. Crie sua conta
+        grátis para ter acesso antecipado.
       </p>
     </section>
   );
